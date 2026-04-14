@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer Named Entity Recognition using spaCy
 
 This project implements a hybrid Named Entity Recognition (NER) system using spaCy and Regex to extract customer-related entities from text.
@@ -58,3 +59,7 @@ python predict.py "Hi, this is John Doe. My order OD12345 hasn't arrived. Email:
 
 - **Regex**: Extracts `EMAIL`, `PHONE_NUMBER`, `ORDER_ID` for high precision.
 - **SpaCy NER**: Extracts `CUSTOMER_NAME`, `ADDRESS`, `PRODUCT`, `DATE` based on context.
+=======
+# Customer-Named-Entity-Recognition
+ml project
+>>>>>>> de5f76afe2b47f20c14366141da6f9de0ec3ad72
