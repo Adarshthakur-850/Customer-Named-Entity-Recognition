@@ -217,15 +217,7 @@ Customer-Named-Entity-Recognition/
 * Noisy or incomplete customer data
 * Model generalization across datasets
 
----
 
-## Contributing
-
-Contributions are welcome. Please follow standard Git workflow:
-
-```bash
-fork → clone → branch → commit → push → pull request
-```
 
 ---
 
