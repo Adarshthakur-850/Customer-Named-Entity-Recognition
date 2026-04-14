@@ -1,0 +1,8854 @@
+[
+  [
+    "Call me at +1-555-0100 or email contact@company.net.",
+    {
+      "entities": [
+        [
+          11,
+          22,
+          "PHONE_NUMBER"
+        ],
+        [
+          32,
+          51,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Jane Smith, 456 Elm Ave, Los Angeles, CA, Phone: (555) 012-3456.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          53,
+          "ADDRESS"
+        ],
+        [
+          62,
+          76,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is John Doe. My order ORDER#123 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          20,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is 555-0199.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD-554433 (Running Shoes).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Smart Watch on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          50,
+          "PRODUCT"
+        ],
+        [
+          54,
+          72,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Bob Brown. My order ORD-4567 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order OD67890.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Coffee Maker available? Contact support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          3,
+          15,
+          "PRODUCT"
+        ],
+        [
+          35,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 456 Elm Ave, Los Angeles, CA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emma White, 123 Main St, New York, NY, Phone: 555-0123.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          45,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on tomorrow?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          58,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          50,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Michael Clark, 101 Pine Rd, Seattle, WA, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "CUSTOMER_NAME"
+        ],
+        [
+          28,
+          52,
+          "ADDRESS"
+        ],
+        [
+          61,
+          72,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at support@helpdesk.io regarding my purchase of Smart Watch.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          77,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2024-01-01 is the new delivery date for ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Bob Brown, 456 Elm Ave, Los Angeles, CA, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          24,
+          52,
+          "ADDRESS"
+        ],
+        [
+          61,
+          72,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is jane.smith@test.org and phone is 555-0199.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORD-4567 for David Hall at 789 Oak Ln, Chicago, IL.",
+    {
+      "entities": [
+        [
+          6,
+          14,
+          "ORDER_ID"
+        ],
+        [
+          19,
+          29,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: next Monday is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is 4K Monitor available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          13,
+          "PRODUCT"
+        ],
+        [
+          33,
+          47,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2023-10-25 is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of Coffee Maker.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 789 Oak Ln, Chicago, IL. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "John Doe here. I have an issue with order OD12345.",
+    {
+      "entities": [
+        [
+          0,
+          8,
+          "CUSTOMER_NAME"
+        ],
+        [
+          42,
+          49,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Emily Wilson at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          32,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smart Watch on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          20,
+          "PRODUCT"
+        ],
+        [
+          24,
+          32,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Coffee Maker available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          15,
+          "PRODUCT"
+        ],
+        [
+          35,
+          49,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 789 Oak Ln, Chicago, IL. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          31,
+          "ADDRESS"
+        ],
+        [
+          43,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order OD67890.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emma White, 123 Main St, New York, NY, Phone: 123-456-7890.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          71,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 456 Elm Ave, Los Angeles, CA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (Running Shoes).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          46,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Bluetooth Speaker ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          45,
+          "PRODUCT"
+        ],
+        [
+          57,
+          67,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD-554433 (Smartphone Case).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          45,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emma White here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 789 Oak Ln, Chicago, IL. Order ID: ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          31,
+          "ADDRESS"
+        ],
+        [
+          43,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order ORD-4567.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD67890 (Smartphone Case).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for John Doe, 456 Elm Ave, Los Angeles, CA, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          23,
+          51,
+          "ADDRESS"
+        ],
+        [
+          60,
+          71,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at (555) 012-3456 or email jane.smith@test.org.",
+    {
+      "entities": [
+        [
+          11,
+          25,
+          "PHONE_NUMBER"
+        ],
+        [
+          35,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Running Shoes ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          71,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Running Shoes).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Bluetooth Speaker available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          20,
+          "PRODUCT"
+        ],
+        [
+          40,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2024-01-01 is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Gaming Laptop.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Sarah Lewis, 202 Maple Dr, Austin, TX, Phone: 555-0199.",
+    {
+      "entities": [
+        [
+          13,
+          24,
+          "CUSTOMER_NAME"
+        ],
+        [
+          26,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at support@helpdesk.io regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          85,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Smartphone Case on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          54,
+          "PRODUCT"
+        ],
+        [
+          58,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered 4K Monitor on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          53,
+          "PRODUCT"
+        ],
+        [
+          57,
+          75,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smart Watch on 05/12/2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          20,
+          "PRODUCT"
+        ],
+        [
+          24,
+          34,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Wireless Headphones on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          28,
+          "PRODUCT"
+        ],
+        [
+          32,
+          42,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD-554433 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order ORDER#123 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          42,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Charlie Davis at 789 Oak Ln, Chicago, IL.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          34,
+          "CUSTOMER_NAME"
+        ],
+        [
+          38,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is contact@company.net and phone is (555) 012-3456.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          59,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Bob Brown, 789 Oak Ln, Chicago, IL, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          24,
+          47,
+          "ADDRESS"
+        ],
+        [
+          56,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order OD67890.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of Gaming Laptop.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          79,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          55,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Running Shoes on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          59,
+          "PRODUCT"
+        ],
+        [
+          63,
+          74,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Bluetooth Speaker on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Wireless Headphones on last Friday but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          28,
+          "PRODUCT"
+        ],
+        [
+          32,
+          43,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Smart Watch on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          50,
+          "PRODUCT"
+        ],
+        [
+          54,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Smartphone Case).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smartphone Case on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          24,
+          "PRODUCT"
+        ],
+        [
+          28,
+          46,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Bob Brown here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          9,
+          "CUSTOMER_NAME"
+        ],
+        [
+          43,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smartphone Case on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          24,
+          "PRODUCT"
+        ],
+        [
+          28,
+          46,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2024-01-01 is the new delivery date for ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Smartphone Case on 2024-01-01.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          61,
+          "PRODUCT"
+        ],
+        [
+          65,
+          75,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0199. I ordered Wireless Headphones on 2023-10-25.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          58,
+          "PRODUCT"
+        ],
+        [
+          62,
+          72,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is 4K Monitor available? Contact contact@company.net.",
+    {
+      "entities": [
+        [
+          3,
+          13,
+          "PRODUCT"
+        ],
+        [
+          33,
+          52,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smart Watch on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          20,
+          "PRODUCT"
+        ],
+        [
+          24,
+          32,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order Purchase-789 for Alice Johnson at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          18,
+          "ORDER_ID"
+        ],
+        [
+          23,
+          36,
+          "CUSTOMER_NAME"
+        ],
+        [
+          40,
+          65,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emma White here. I have an issue with order OD-554433.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order OD67890 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for Jane Smith at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          28,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Coffee Maker on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          21,
+          "PRODUCT"
+        ],
+        [
+          25,
+          43,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 987-654-3210 or email bob123@web.com.",
+    {
+      "entities": [
+        [
+          11,
+          23,
+          "PHONE_NUMBER"
+        ],
+        [
+          33,
+          47,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is alice.j@domain.co and phone is (555) 012-3456.",
+    {
+      "entities": [
+        [
+          12,
+          29,
+          "EMAIL"
+        ],
+        [
+          43,
+          57,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORD-4567 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "ORDER_ID"
+        ],
+        [
+          29,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Bob Brown here. I have an issue with order ORD-4567.",
+    {
+      "entities": [
+        [
+          0,
+          9,
+          "CUSTOMER_NAME"
+        ],
+        [
+          43,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order OD12345.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at +1-555-0100 or email bob123@web.com.",
+    {
+      "entities": [
+        [
+          11,
+          22,
+          "PHONE_NUMBER"
+        ],
+        [
+          32,
+          46,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          80,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Coffee Maker on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          51,
+          "PRODUCT"
+        ],
+        [
+          55,
+          66,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Alice Johnson. My order ORD-4567 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          44,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 15th November 2023 is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          26,
+          "DATE"
+        ],
+        [
+          56,
+          66,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Running Shoes on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          52,
+          "PRODUCT"
+        ],
+        [
+          56,
+          66,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smartphone Case ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          43,
+          "PRODUCT"
+        ],
+        [
+          55,
+          66,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Bluetooth Speaker.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          78,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 789 Oak Ln, Chicago, IL. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on next Monday but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          37,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +1-555-0100. I ordered Wireless Headphones on 2023-10-25.",
+    {
+      "entities": [
+        [
+          19,
+          30,
+          "PHONE_NUMBER"
+        ],
+        [
+          42,
+          61,
+          "PRODUCT"
+        ],
+        [
+          65,
+          75,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-0199.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Bob Brown. My order #998877 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          39,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Smartphone Case.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order Purchase-789 for Sarah Lewis at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          18,
+          "ORDER_ID"
+        ],
+        [
+          23,
+          34,
+          "CUSTOMER_NAME"
+        ],
+        [
+          38,
+          63,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Emma White. My order ORDER#123 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          42,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 123-456-7890 or email alice.j@domain.co.",
+    {
+      "entities": [
+        [
+          11,
+          23,
+          "PHONE_NUMBER"
+        ],
+        [
+          33,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought 4K Monitor on 05/12/2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          19,
+          "PRODUCT"
+        ],
+        [
+          23,
+          33,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 15th November 2023 is the new delivery date for OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          26,
+          "DATE"
+        ],
+        [
+          56,
+          63,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Running Shoes).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order #998877 for Bob Brown at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          27,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 456 Elm Ave, Los Angeles, CA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on 05/12/2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD67890 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          38,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emily Wilson, 123 Main St, New York, NY, Phone: (555) 012-3456.",
+    {
+      "entities": [
+        [
+          13,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          27,
+          52,
+          "ADDRESS"
+        ],
+        [
+          61,
+          75,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Coffee Maker ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          40,
+          "PRODUCT"
+        ],
+        [
+          52,
+          62,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is +44 7700 900077.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          60,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD67890 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          40,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered Running Shoes on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          78,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 789 Oak Ln, Chicago, IL. Order ID: ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          31,
+          "ADDRESS"
+        ],
+        [
+          43,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is contact@company.net and phone is (555) 012-3456.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          59,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Emma White. My order OD67890 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "David Hall here. I have an issue with order OD-554433.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Bob Brown at 789 Oak Ln, Chicago, IL.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          29,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Smartphone Case).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Wireless Headphones available? Contact jane.smith@test.org.",
+    {
+      "entities": [
+        [
+          3,
+          22,
+          "PRODUCT"
+        ],
+        [
+          42,
+          61,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order OD-554433.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is john@email.com and phone is +44 7700 900077.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          55,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: last Friday is the new delivery date for ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          77,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Running Shoes.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORD-4567 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "ORDER_ID"
+        ],
+        [
+          29,
+          48,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          60,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Smartphone Case available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          18,
+          "PRODUCT"
+        ],
+        [
+          38,
+          52,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 987-654-3210 or email alice.j@domain.co.",
+    {
+      "entities": [
+        [
+          11,
+          23,
+          "PHONE_NUMBER"
+        ],
+        [
+          33,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD67890 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          40,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is John Doe. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          20,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Bluetooth Speaker on 2024-01-01 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          26,
+          "PRODUCT"
+        ],
+        [
+          30,
+          40,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 456 Elm Ave, Los Angeles, CA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          44,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORD-4567 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "ORDER_ID"
+        ],
+        [
+          29,
+          48,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "John Doe here. I have an issue with order Purchase-789.",
+    {
+      "entities": [
+        [
+          0,
+          8,
+          "CUSTOMER_NAME"
+        ],
+        [
+          42,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 123-456-7890.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          57,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD67890 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smartphone Case on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          24,
+          "PRODUCT"
+        ],
+        [
+          28,
+          38,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Emma White. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          42,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Gaming Laptop on 2024-01-01.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          59,
+          "PRODUCT"
+        ],
+        [
+          63,
+          73,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Coffee Maker ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          40,
+          "PRODUCT"
+        ],
+        [
+          52,
+          63,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emily Wilson here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          12,
+          "CUSTOMER_NAME"
+        ],
+        [
+          46,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smartphone Case on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          24,
+          "PRODUCT"
+        ],
+        [
+          28,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is alice.j@domain.co and phone is 987-654-3210.",
+    {
+      "entities": [
+        [
+          12,
+          29,
+          "EMAIL"
+        ],
+        [
+          43,
+          55,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order #998877 for David Hall at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          28,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          57,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Charlie Davis. My order #998877 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          43,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Bob Brown at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          30,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Bluetooth Speaker on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          71,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Smart Watch).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          39,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Alice Johnson at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          34,
+          "CUSTOMER_NAME"
+        ],
+        [
+          38,
+          62,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0199. I ordered Smart Watch on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          50,
+          "PRODUCT"
+        ],
+        [
+          54,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for Michael Clark at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          31,
+          "CUSTOMER_NAME"
+        ],
+        [
+          35,
+          63,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: next Monday is the new delivery date for Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          61,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order Purchase-789 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0123 or email bob123@web.com.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          43,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 987-654-3210. I ordered Gaming Laptop on tomorrow.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emily Wilson, 202 Maple Dr, Austin, TX, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          27,
+          51,
+          "ADDRESS"
+        ],
+        [
+          60,
+          71,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smart Watch ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PRODUCT"
+        ],
+        [
+          51,
+          69,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2023-10-25 is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Coffee Maker on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          51,
+          "PRODUCT"
+        ],
+        [
+          55,
+          66,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is jane.smith@test.org and phone is 555-0199.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of Smart Watch.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          75,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Jane Smith, 123 Main St, New York, NY, Phone: 555-0199.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is 555-0123.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Emma White. My order OD12345 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          60,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Charlie Davis. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on tomorrow?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Bob Brown. My order #998877 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          39,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at +44 7700 900077 or email john@email.com.",
+    {
+      "entities": [
+        [
+          11,
+          26,
+          "PHONE_NUMBER"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Running Shoes.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          85,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of Bluetooth Speaker.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          83,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD-554433 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          40,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Smart Watch on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          50,
+          "PRODUCT"
+        ],
+        [
+          54,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Bluetooth Speaker ordered on tomorrow?",
+    {
+      "entities": [
+        [
+          28,
+          45,
+          "PRODUCT"
+        ],
+        [
+          57,
+          65,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order Purchase-789 for Bob Brown at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          18,
+          "ORDER_ID"
+        ],
+        [
+          23,
+          32,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Michael Clark here. I have an issue with order OD67890.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Coffee Maker ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          40,
+          "PRODUCT"
+        ],
+        [
+          52,
+          63,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on 2023-10-25?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          69,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          38,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: #998877.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Bob Brown here. I have an issue with order ORDER#123.",
+    {
+      "entities": [
+        [
+          0,
+          9,
+          "CUSTOMER_NAME"
+        ],
+        [
+          43,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Bluetooth Speaker on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          26,
+          "PRODUCT"
+        ],
+        [
+          30,
+          40,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          80,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Gaming Laptop available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order ORDER#123.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emily Wilson here. I have an issue with order ORDER#123.",
+    {
+      "entities": [
+        [
+          0,
+          12,
+          "CUSTOMER_NAME"
+        ],
+        [
+          46,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Smart Watch.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          77,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for David Hall at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          28,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Wireless Headphones available? Contact support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          3,
+          22,
+          "PRODUCT"
+        ],
+        [
+          42,
+          61,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Running Shoes on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          52,
+          "PRODUCT"
+        ],
+        [
+          56,
+          74,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smartphone Case ordered on 05/12/2023?",
+    {
+      "entities": [
+        [
+          28,
+          43,
+          "PRODUCT"
+        ],
+        [
+          55,
+          65,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is (555) 012-3456. I ordered Bluetooth Speaker on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          33,
+          "PHONE_NUMBER"
+        ],
+        [
+          45,
+          62,
+          "PRODUCT"
+        ],
+        [
+          66,
+          77,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          60,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of Coffee Maker.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          78,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Coffee Maker on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          21,
+          "PRODUCT"
+        ],
+        [
+          25,
+          33,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emma White here. I have an issue with order Purchase-789.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          69,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          44,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Alice Johnson, 789 Oak Ln, Chicago, IL, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "CUSTOMER_NAME"
+        ],
+        [
+          28,
+          51,
+          "ADDRESS"
+        ],
+        [
+          60,
+          71,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 987-654-3210. I ordered Gaming Laptop on tomorrow.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 202 Maple Dr, Austin, TX. Order ID: ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORDER#123 for Charlie Davis at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          33,
+          "CUSTOMER_NAME"
+        ],
+        [
+          37,
+          62,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          40,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORD-4567 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "ORDER_ID"
+        ],
+        [
+          29,
+          39,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 15th November 2023 is the new delivery date for ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          26,
+          "DATE"
+        ],
+        [
+          56,
+          64,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on tomorrow?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          67,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 987-654-3210 or email jane.smith@test.org.",
+    {
+      "entities": [
+        [
+          11,
+          23,
+          "PHONE_NUMBER"
+        ],
+        [
+          33,
+          52,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: last Friday is the new delivery date for ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          55,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 202 Maple Dr, Austin, TX. Order ID: #998877.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: last Friday is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Wireless Headphones on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          28,
+          "PRODUCT"
+        ],
+        [
+          32,
+          40,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 123-456-7890.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          57,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Wireless Headphones on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          28,
+          "PRODUCT"
+        ],
+        [
+          32,
+          42,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of Coffee Maker.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2024-01-01 is the new delivery date for TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order #998877 for Bob Brown at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          27,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered Smart Watch on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          54,
+          "PRODUCT"
+        ],
+        [
+          58,
+          76,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought 4K Monitor on 05/12/2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          19,
+          "PRODUCT"
+        ],
+        [
+          23,
+          33,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for John Doe, 101 Pine Rd, Seattle, WA, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          23,
+          47,
+          "ADDRESS"
+        ],
+        [
+          56,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Emma White at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          31,
+          "CUSTOMER_NAME"
+        ],
+        [
+          35,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Gaming Laptop on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          59,
+          "PRODUCT"
+        ],
+        [
+          63,
+          73,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smartphone Case ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          43,
+          "PRODUCT"
+        ],
+        [
+          55,
+          65,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for David Hall at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          28,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought 4K Monitor on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          19,
+          "PRODUCT"
+        ],
+        [
+          23,
+          41,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought 4K Monitor on last Friday but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          19,
+          "PRODUCT"
+        ],
+        [
+          23,
+          34,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (Bluetooth Speaker).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          50,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORDER#123 (Bluetooth Speaker).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          47,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Michael Clark here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Gaming Laptop on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          59,
+          "PRODUCT"
+        ],
+        [
+          63,
+          74,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          80,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Bob Brown, 101 Pine Rd, Seattle, WA, Phone: 555-1234.",
+    {
+      "entities": [
+        [
+          13,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          24,
+          48,
+          "ADDRESS"
+        ],
+        [
+          57,
+          65,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is (555) 012-3456.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          54,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 202 Maple Dr, Austin, TX. Order ID: ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at support@helpdesk.io regarding my purchase of Running Shoes.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          79,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORD-4567 for Sarah Lewis at 789 Oak Ln, Chicago, IL.",
+    {
+      "entities": [
+        [
+          6,
+          14,
+          "ORDER_ID"
+        ],
+        [
+          19,
+          30,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          57,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 456 Elm Ave, Los Angeles, CA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORDER#123 for David Hall at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          30,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          62,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-0123.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Bob Brown here. I have an issue with order OD67890.",
+    {
+      "entities": [
+        [
+          0,
+          9,
+          "CUSTOMER_NAME"
+        ],
+        [
+          43,
+          50,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on 2024-01-01 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for Alice Johnson at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          31,
+          "CUSTOMER_NAME"
+        ],
+        [
+          35,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 789 Oak Ln, Chicago, IL. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is (555) 012-3456. I ordered Smartphone Case on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          33,
+          "PHONE_NUMBER"
+        ],
+        [
+          45,
+          60,
+          "PRODUCT"
+        ],
+        [
+          64,
+          82,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Bob Brown. My order TRX-112233 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          42,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Charlie Davis. My order ORDER#123 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-0123.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          85,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Bluetooth Speaker ordered on 05/12/2023?",
+    {
+      "entities": [
+        [
+          28,
+          45,
+          "PRODUCT"
+        ],
+        [
+          57,
+          67,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 15th November 2023 is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          26,
+          "DATE"
+        ],
+        [
+          56,
+          63,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Alice Johnson. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is jane.smith@test.org and phone is 123-456-7890.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          57,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smart Watch ordered on 05/12/2023?",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PRODUCT"
+        ],
+        [
+          51,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0123 or email support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          48,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Jane Smith, 202 Maple Dr, Austin, TX, Phone: 555-1234.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          49,
+          "ADDRESS"
+        ],
+        [
+          58,
+          66,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (Wireless Headphones).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          52,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Bluetooth Speaker available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          20,
+          "PRODUCT"
+        ],
+        [
+          40,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0199 or email john@email.com.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          43,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for David Hall, 123 Main St, New York, NY, Phone: (555) 012-3456.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          73,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Charlie Davis. My order OD12345 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          43,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          71,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on 2023-10-25?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          60,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for John Doe, 789 Oak Ln, Chicago, IL, Phone: 987-654-3210.",
+    {
+      "entities": [
+        [
+          13,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          23,
+          46,
+          "ADDRESS"
+        ],
+        [
+          55,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Bob Brown at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          29,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          83,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Charlie Davis here. I have an issue with order ORDER#123.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Charlie Davis, 123 Main St, New York, NY, Phone: +44 7700 900077.",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "CUSTOMER_NAME"
+        ],
+        [
+          28,
+          53,
+          "ADDRESS"
+        ],
+        [
+          62,
+          77,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Smartphone Case on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          54,
+          "PRODUCT"
+        ],
+        [
+          58,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Bluetooth Speaker.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          78,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smartphone Case ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          43,
+          "PRODUCT"
+        ],
+        [
+          55,
+          66,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORDER#123 for Jane Smith at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          30,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2023-10-25 is the new delivery date for ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order Purchase-789 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought 4K Monitor on 05/12/2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          19,
+          "PRODUCT"
+        ],
+        [
+          23,
+          33,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0123 or email support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          48,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: last Friday is the new delivery date for OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for Purchase-789 (Bluetooth Speaker).",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "ORDER_ID"
+        ],
+        [
+          33,
+          50,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Gaming Laptop.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Coffee Maker).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 789 Oak Ln, Chicago, IL. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +1-555-0100. I ordered Coffee Maker on 2024-01-01.",
+    {
+      "entities": [
+        [
+          19,
+          30,
+          "PHONE_NUMBER"
+        ],
+        [
+          42,
+          54,
+          "PRODUCT"
+        ],
+        [
+          58,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORD-4567 (Smartphone Case).",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "ORDER_ID"
+        ],
+        [
+          29,
+          44,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Running Shoes ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          71,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          53,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "John Doe here. I have an issue with order OD12345.",
+    {
+      "entities": [
+        [
+          0,
+          8,
+          "CUSTOMER_NAME"
+        ],
+        [
+          42,
+          49,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for John Doe, 789 Oak Ln, Chicago, IL, Phone: 987-654-3210.",
+    {
+      "entities": [
+        [
+          13,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          23,
+          46,
+          "ADDRESS"
+        ],
+        [
+          55,
+          67,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Emma White. My order ORDER#123 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          42,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order Purchase-789 for Charlie Davis at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          18,
+          "ORDER_ID"
+        ],
+        [
+          23,
+          36,
+          "CUSTOMER_NAME"
+        ],
+        [
+          40,
+          68,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Bluetooth Speaker on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          26,
+          "PRODUCT"
+        ],
+        [
+          30,
+          40,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of Bluetooth Speaker.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          83,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD12345 for Jane Smith at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          28,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Bluetooth Speaker ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          45,
+          "PRODUCT"
+        ],
+        [
+          57,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Smartphone Case.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          81,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: tomorrow is the new delivery date for Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          16,
+          "DATE"
+        ],
+        [
+          46,
+          58,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: next Monday is the new delivery date for ORD-4567.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          41,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Smartphone Case.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: #998877.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Coffee Maker on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          21,
+          "PRODUCT"
+        ],
+        [
+          25,
+          43,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Smart Watch.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          77,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: TRX-112233.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 123-456-7890 or email alice.j@domain.co.",
+    {
+      "entities": [
+        [
+          11,
+          23,
+          "PHONE_NUMBER"
+        ],
+        [
+          33,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is support@helpdesk.io and phone is (555) 012-3456.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          59,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for #998877 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          38,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0199 or email jane.smith@test.org.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          48,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Alice Johnson. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order #998877 for Charlie Davis at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          31,
+          "CUSTOMER_NAME"
+        ],
+        [
+          35,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is (555) 012-3456. I ordered Smart Watch on 2023-10-25.",
+    {
+      "entities": [
+        [
+          19,
+          33,
+          "PHONE_NUMBER"
+        ],
+        [
+          45,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alice Johnson here. I have an issue with order ORD-4567.",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "CUSTOMER_NAME"
+        ],
+        [
+          47,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is contact@company.net and phone is 555-0123.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Jane Smith, 456 Elm Ave, Los Angeles, CA, Phone: 555-0123.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          53,
+          "ADDRESS"
+        ],
+        [
+          62,
+          70,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on tomorrow but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          34,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORDER#123 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          43,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          60,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order OD67890 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Charlie Davis at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          33,
+          "CUSTOMER_NAME"
+        ],
+        [
+          37,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Smart Watch available? Contact support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          3,
+          14,
+          "PRODUCT"
+        ],
+        [
+          34,
+          53,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +44 7700 900077. I ordered Gaming Laptop on 15th November 2023.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "PHONE_NUMBER"
+        ],
+        [
+          46,
+          59,
+          "PRODUCT"
+        ],
+        [
+          63,
+          81,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on last Friday but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          37,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORD-4567 for David Hall at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          14,
+          "ORDER_ID"
+        ],
+        [
+          19,
+          29,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered Gaming Laptop on 2024-01-01.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order Purchase-789 for Alice Johnson at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          18,
+          "ORDER_ID"
+        ],
+        [
+          23,
+          36,
+          "CUSTOMER_NAME"
+        ],
+        [
+          40,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2024-01-01 is the new delivery date for Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          60,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Smart Watch).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          42,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Charlie Davis at 202 Maple Dr, Austin, TX.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          33,
+          "CUSTOMER_NAME"
+        ],
+        [
+          37,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smart Watch ordered on 05/12/2023?",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PRODUCT"
+        ],
+        [
+          51,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 101 Pine Rd, Seattle, WA. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is +1-555-0100. I ordered Smart Watch on last Friday.",
+    {
+      "entities": [
+        [
+          19,
+          30,
+          "PHONE_NUMBER"
+        ],
+        [
+          42,
+          53,
+          "PRODUCT"
+        ],
+        [
+          57,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Sarah Lewis at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          32,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is john@email.com and phone is 555-1234.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 456 Elm Ave, Los Angeles, CA. Order ID: Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          36,
+          "ADDRESS"
+        ],
+        [
+          48,
+          60,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at +1-555-0100 or email jane.smith@test.org.",
+    {
+      "entities": [
+        [
+          11,
+          22,
+          "PHONE_NUMBER"
+        ],
+        [
+          32,
+          51,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Alice Johnson, 456 Elm Ave, Los Angeles, CA, Phone: 555-1234.",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "CUSTOMER_NAME"
+        ],
+        [
+          28,
+          56,
+          "ADDRESS"
+        ],
+        [
+          65,
+          73,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2023-10-25 is the new delivery date for ORDER#123.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on 2024-01-01 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Bluetooth Speaker available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          20,
+          "PRODUCT"
+        ],
+        [
+          40,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emma White here. I have an issue with order ORD-4567.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Smartphone Case.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          81,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Bluetooth Speaker on 2024-01-01 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          26,
+          "PRODUCT"
+        ],
+        [
+          30,
+          40,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is John Doe. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          20,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is bob123@web.com and phone is 555-0199.",
+    {
+      "entities": [
+        [
+          12,
+          26,
+          "EMAIL"
+        ],
+        [
+          40,
+          48,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Coffee Maker ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          40,
+          "PRODUCT"
+        ],
+        [
+          52,
+          63,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emily Wilson here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          12,
+          "CUSTOMER_NAME"
+        ],
+        [
+          46,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on next Monday?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          64,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order TRX-112233 for Bob Brown at 123 Main St, New York, NY.",
+    {
+      "entities": [
+        [
+          6,
+          16,
+          "ORDER_ID"
+        ],
+        [
+          21,
+          30,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Gaming Laptop available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smart Watch ordered on 2023-10-25?",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PRODUCT"
+        ],
+        [
+          51,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Wireless Headphones available? Contact john@email.com.",
+    {
+      "entities": [
+        [
+          3,
+          22,
+          "PRODUCT"
+        ],
+        [
+          42,
+          56,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          71,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0199. I ordered Bluetooth Speaker on tomorrow.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          68,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Bluetooth Speaker on 2023-10-25.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact alice.j@domain.co.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          53,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Alice Johnson. My order ORD-4567 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          44,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Wireless Headphones.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          80,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered Coffee Maker on next Monday.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          55,
+          "PRODUCT"
+        ],
+        [
+          59,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Emma White here. I have an issue with order Purchase-789.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 789 Oak Ln, Chicago, IL. Order ID: OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          31,
+          "ADDRESS"
+        ],
+        [
+          43,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of Coffee Maker.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          78,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-1234 or email john@email.com.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          43,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Gaming Laptop ordered on 15th November 2023?",
+    {
+      "entities": [
+        [
+          28,
+          41,
+          "PRODUCT"
+        ],
+        [
+          53,
+          71,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Coffee Maker on 2024-01-01 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          21,
+          "PRODUCT"
+        ],
+        [
+          25,
+          35,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emma White, 101 Pine Rd, Seattle, WA, Phone: 555-0199.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          49,
+          "ADDRESS"
+        ],
+        [
+          58,
+          66,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Bob Brown. My order ORD-4567 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "CUSTOMER_NAME"
+        ],
+        [
+          32,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Smart Watch ordered on 2024-01-01?",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PRODUCT"
+        ],
+        [
+          51,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "John Doe here. I have an issue with order OD12345.",
+    {
+      "entities": [
+        [
+          0,
+          8,
+          "CUSTOMER_NAME"
+        ],
+        [
+          42,
+          49,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at jane.smith@test.org regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Coffee Maker available? Contact alice.j@domain.co.",
+    {
+      "entities": [
+        [
+          3,
+          15,
+          "PRODUCT"
+        ],
+        [
+          35,
+          52,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at john@email.com regarding my purchase of Running Shoes.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          74,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 789 Oak Ln, Chicago, IL. Order ID: Purchase-789.",
+    {
+      "entities": [
+        [
+          8,
+          31,
+          "ADDRESS"
+        ],
+        [
+          43,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at 555-0199 or email bob123@web.com.",
+    {
+      "entities": [
+        [
+          11,
+          19,
+          "PHONE_NUMBER"
+        ],
+        [
+          29,
+          43,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smart Watch on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          20,
+          "PRODUCT"
+        ],
+        [
+          24,
+          34,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at contact@company.net regarding my purchase of 4K Monitor.",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "EMAIL"
+        ],
+        [
+          66,
+          76,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 05/12/2023 is the new delivery date for OD-554433.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on 2023-10-25?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          69,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 123 Main St, New York, NY. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 101 Pine Rd, Seattle, WA. Order ID: OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          32,
+          "ADDRESS"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          51,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Emily Wilson at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          32,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Jane Smith. My order OD67890 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "CUSTOMER_NAME"
+        ],
+        [
+          33,
+          40,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD-554433 for Charlie Davis at 456 Elm Ave, Los Angeles, CA.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          33,
+          "CUSTOMER_NAME"
+        ],
+        [
+          37,
+          65,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on next Monday but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          37,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Bob Brown here. I have an issue with order #998877.",
+    {
+      "entities": [
+        [
+          0,
+          9,
+          "CUSTOMER_NAME"
+        ],
+        [
+          43,
+          50,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at alice.j@domain.co regarding my purchase of Gaming Laptop.",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "EMAIL"
+        ],
+        [
+          64,
+          77,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: 2023-10-25 is the new delivery date for OD67890.",
+    {
+      "entities": [
+        [
+          8,
+          18,
+          "DATE"
+        ],
+        [
+          48,
+          55,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at (555) 012-3456 or email support@helpdesk.io.",
+    {
+      "entities": [
+        [
+          11,
+          25,
+          "PHONE_NUMBER"
+        ],
+        [
+          35,
+          54,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Ship to 123 Main St, New York, NY. Order ID: OD12345.",
+    {
+      "entities": [
+        [
+          8,
+          33,
+          "ADDRESS"
+        ],
+        [
+          45,
+          52,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Sarah Lewis. My order #998877 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          34,
+          41,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-1234. I ordered Bluetooth Speaker on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          56,
+          "PRODUCT"
+        ],
+        [
+          60,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is alice.j@domain.co and phone is +1-555-0100.",
+    {
+      "entities": [
+        [
+          12,
+          29,
+          "EMAIL"
+        ],
+        [
+          43,
+          54,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "I moved to 202 Maple Dr, Austin, TX. Please update my profile.",
+    {
+      "entities": [
+        [
+          11,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for ORDER#123 (4K Monitor).",
+    {
+      "entities": [
+        [
+          19,
+          28,
+          "ORDER_ID"
+        ],
+        [
+          30,
+          40,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered 4K Monitor on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          53,
+          "PRODUCT"
+        ],
+        [
+          57,
+          67,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for TRX-112233 (Gaming Laptop).",
+    {
+      "entities": [
+        [
+          19,
+          29,
+          "ORDER_ID"
+        ],
+        [
+          31,
+          44,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 123-456-7890. I ordered Bluetooth Speaker on 2024-01-01.",
+    {
+      "entities": [
+        [
+          19,
+          31,
+          "PHONE_NUMBER"
+        ],
+        [
+          43,
+          60,
+          "PRODUCT"
+        ],
+        [
+          64,
+          74,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Update: next Monday is the new delivery date for #998877.",
+    {
+      "entities": [
+        [
+          8,
+          19,
+          "DATE"
+        ],
+        [
+          49,
+          56,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Charlie Davis. My order OD67890 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          43,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Jane Smith here. I have an issue with order TRX-112233.",
+    {
+      "entities": [
+        [
+          0,
+          10,
+          "CUSTOMER_NAME"
+        ],
+        [
+          44,
+          54,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emily Wilson, 789 Oak Ln, Chicago, IL, Phone: +1-555-0100.",
+    {
+      "entities": [
+        [
+          13,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          27,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          70,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order OD67890 for Bob Brown at 101 Pine Rd, Seattle, WA.",
+    {
+      "entities": [
+        [
+          6,
+          13,
+          "ORDER_ID"
+        ],
+        [
+          18,
+          27,
+          "CUSTOMER_NAME"
+        ],
+        [
+          31,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of Wireless Headphones ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          47,
+          "PRODUCT"
+        ],
+        [
+          59,
+          70,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Call me at +1-555-0100 or email bob123@web.com.",
+    {
+      "entities": [
+        [
+          11,
+          22,
+          "PHONE_NUMBER"
+        ],
+        [
+          32,
+          46,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Delivery for Emma White, 123 Main St, New York, NY, Phone: (555) 012-3456.",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "CUSTOMER_NAME"
+        ],
+        [
+          25,
+          50,
+          "ADDRESS"
+        ],
+        [
+          59,
+          73,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "My phone number is 555-0123. I ordered Coffee Maker on 05/12/2023.",
+    {
+      "entities": [
+        [
+          19,
+          27,
+          "PHONE_NUMBER"
+        ],
+        [
+          39,
+          51,
+          "PRODUCT"
+        ],
+        [
+          55,
+          65,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Gaming Laptop on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          44,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Running Shoes on 2023-10-25 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          22,
+          "PRODUCT"
+        ],
+        [
+          26,
+          36,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Is Running Shoes available? Contact bob123@web.com.",
+    {
+      "entities": [
+        [
+          3,
+          16,
+          "PRODUCT"
+        ],
+        [
+          36,
+          50,
+          "EMAIL"
+        ]
+      ]
+    }
+  ],
+  [
+    "Please contact me at bob123@web.com regarding my purchase of Bluetooth Speaker.",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "EMAIL"
+        ],
+        [
+          61,
+          78,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sarah Lewis here. I have an issue with order Purchase-789.",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "CUSTOMER_NAME"
+        ],
+        [
+          45,
+          57,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Refund request for OD12345 (Bluetooth Speaker).",
+    {
+      "entities": [
+        [
+          19,
+          26,
+          "ORDER_ID"
+        ],
+        [
+          28,
+          45,
+          "PRODUCT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Order ORDER#123 for Michael Clark at 789 Oak Ln, Chicago, IL.",
+    {
+      "entities": [
+        [
+          6,
+          15,
+          "ORDER_ID"
+        ],
+        [
+          20,
+          33,
+          "CUSTOMER_NAME"
+        ],
+        [
+          37,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I bought Smart Watch on 15th November 2023 but it's defective.",
+    {
+      "entities": [
+        [
+          9,
+          20,
+          "PRODUCT"
+        ],
+        [
+          24,
+          42,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "My email is contact@company.net and phone is 555-0123.",
+    {
+      "entities": [
+        [
+          12,
+          31,
+          "EMAIL"
+        ],
+        [
+          45,
+          53,
+          "PHONE_NUMBER"
+        ]
+      ]
+    }
+  ],
+  [
+    "Can you check the status of 4K Monitor ordered on last Friday?",
+    {
+      "entities": [
+        [
+          28,
+          38,
+          "PRODUCT"
+        ],
+        [
+          50,
+          61,
+          "DATE"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is Michael Clark. My order OD-554433 hasn't arrived.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "CUSTOMER_NAME"
+        ],
+        [
+          36,
+          45,
+          "ORDER_ID"
+        ]
+      ]
+    }
+  ],
+  [
+    "Hi, this is John Doe. My order OD12345 hasn\u2019t arrived. Please contact me at john@email.com",
+    {
+      "entities": [
+        [
+          12,
+          20,
+          "CUSTOMER_NAME"
+        ],
+        [
+          30,
+          37,
+          "ORDER_ID"
+        ],
+        [
+          76,
+          90,
+          "EMAIL"
+        ]
+      ]
+    }
+  ]
+]
